@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script src="../jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	
+	<a href="#">Esta es una etiqueta de link</a>
+
+	<div class="clase">
+		
+		Este es un div con clase
+
+	</div>
+
+	<div id='identificador'>
+
+		Este es un div con ID
+
+	</div>
+	<script>
+
+	$(document).ready(function() {
+		
+		//Selector por Etiqueta
+		
+		$('a').click(function() {
+
+			alert('Etiqueta');
+
+		});
+
+		//Selector por Clase
+
+		$('.clase').click(function() {
+
+			alert('Clase');
+
+		});
+
+		//Selector por Identificador
+
+		$('#identificador').click(function() {
+
+			alert('ID');
+
+		});
+	});
+	</script>
+</body>
+</html>
