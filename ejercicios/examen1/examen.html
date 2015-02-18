@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Victoria Secret</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome-4.2.0/css/font-awesome.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		    $("#1").click(function(){
+			$("#descr1").slideToggle("slow");
+			});
+$("#2").click(function(){
+			$("#descr2").slideToggle("slow");
+			});
+$("#3").click(function(){
+			$("#descr3").slideToggle("slow");
+			});
+$("#4").click(function(){
+			$("#descr4").slideToggle("slow");
+			});
+
+
+
+$("#1cmp").click(function(){
+			$("ol").append("<li>Perfume</li>");
+			});
+$("#2cmp").click(function(){
+			$("ol").append("<li>Cremas</li>");
+			});
+$("#3cmp").click(function(){
+			$("ol").append("<li>Ropa</li>");
+			});
+$("#4cmp").click(function(){
+			$("ol").append("<li>Gloss</li>");
+			});
+
+
+$("#c").click(function(){
+			$("#ol").empty();
+			});
+
+		});
+
+function p(){alert("Gracias por tu compra");}
+
+
+
+</script>
+
+
+	</head>
+	<body>
+		<header>
+			<div class="top">
+	<h1>STORE</h1>
+			</div>
+		</header>
+		<div class="separador"></div>
+		<section class="body">
+			<div class="all">
+
+
+
+
+
+				<div class="product">
+					<h2>PRODUCTOS</h2>
+					<div class="com">
+						<div class="pro">
+							<button class="produ" id="1">Perfume</button>
+		<div id="descr1" class="descr"> 
+
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa corrupti, excepturi repellendus, maxime repudiandae optio dolore minus sunt dolor exercitationem a atque neque aliquam blanditiis consequatur quia placeat doloribus esse.</p>
+		<button class="cmp" id="1cmp">Comprar</button>
+							</div>
+						</div>
+						<div class="pro">
+							<button class="produ" id="2">Cremas</button>
+							<div id="descr2" class="descr">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem, a, in, velit ullam adipisci tempora facilis iste reiciendis voluptas, eaque quos magni. Distinctio mollitia, earum harum id in architecto?</p>
+								<button class="cmp" id="2cmp">Comprar</button>
+							</div>
+						</div>
+						<div class="pro">
+							<button class="produ" id="3">Ropa</button>
+							<div id="descr3" class="descr">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem, a, in, velit ullam adipisci tempora facilis iste reiciendis voluptas, eaque quos magni. Distinctio mollitia, earum harum id in architecto?</p>
+								<button class="cmp" id="3cmp">Comprar</button>
+							</div>
+						</div>
+						<div class="pro">
+							<button class="produ" id="4">Gloss</button>
+							<div id="descr4" class="descr">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem, a, in, velit ullam adipisci tempora facilis iste reiciendis voluptas, eaque quos magni. Distinctio mollitia, earum harum id in architecto?</p>
+								<button class="cmp" id="4cmp">Comprar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pedidos">
+					<h2>PEDIDOS</h2>
+					<div id="pedi" class="pedi"><ol id="ol"></ol></div>
+					<div class="botones">
+
+
+						<button onclick="p()" class="cmp" id="P">Pagar</button>
+						<button class="cmp" id="c">Cancelar</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</body>
+</html>

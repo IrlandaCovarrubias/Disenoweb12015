@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+	font-family: 'Lato', Edwardian Script;
+	}
+
+header{
+	background-image: url(../img/vs.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	color: ;
+	margin: 0;
+	padding: 0;
+	}
+
+header .top h1{
+	text-align: center;
+	padding-top: 250px;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 200;
+	}
+
+.separador {
+	height: 15px;
+	background-color: #b41970;
+	}
+
+.all {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 50px;
+
+	}
+
+h2 {
+	color: #b41970;
+	font-size: 20px;
+	font-weight: 400;
+	}
+
+.product{
+	float: left;
+	width: 60%;
+	}
+
+.pedidos{
+	float: right;
+	width: 200px;
+	text-align: left;
+	}
+
+.com{
+	padding-top: 30px;
+	}
+
+.pro {
+	margin-bottom: 20px;
+	}
+
+button.produ{
+	background-color: #b41970;
+	color: white;
+	height: 50px;
+	width: 100%;
+	text-align: left;
+	font-size: 18px;
+	border: none;
+	padding-left: 15px;
+	}
+
+button.produ:hover{
+	background-color: #d270a7;
+}
+
+button.cmp{
+	background-color: #000000;
+	border: none;
+	height: 40px;
+	color: white;
+	width: 150px;
+	margin-top: 15px;
+	}
+
+	button.cmp:hover{
+	background-color: #838479;
+}
+
+.pedi {
+	font-size: 15px;
+	color: #2d2828;
+}
+
+.descr{
+	display: none;
+}
+
