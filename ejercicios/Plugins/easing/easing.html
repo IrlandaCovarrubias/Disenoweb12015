@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>	
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA.compatible" content="IE-edge">
+     <title></title>
+     <link rel="stylesheet" href="style.css">
+     <script type="text/javascript" src="../../jquery-1.11.2.min.js"></script>
+     <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+
+<script>
+
+
+$(document).ready(function() {
+	
+	$('.thu').each(function(index, el) {
+		
+	    var $url_imagen = $(this).data('img');
+	    $(this).css('background-image','url('+ $url_imagen +')');
+
+	});
+	$('thumbnails').animate({marginTop:'0px'}, 500);
+
+});
+
+	
+</script>
+
+
+
+</head>
+<body>
+
+<div class="container">
+</div>
+<div class="thumbnails">
+	<div class="thu" data-img="img/1.jpg"></div>
+	<div class="thu" data-img="img/2.jpg"></div>
+	<div class="clearfix"></div>
+	
+</div>
+
+
+</body>
+</html>

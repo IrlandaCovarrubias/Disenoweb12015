@@ -1,0 +1,629 @@
+<zuiprezi>
+  <version>10</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-26005.24471664833" y="-16316.268550615217" width="76987.06529235929" height="32862.04952089307"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>es</language>
+      </languages>
+      <mode type="normal"/>
+    </settings>
+    <object id="38_95982358" type="shape" x="11534.697538976183" y="-11193.2470961426" r="7.216275348561474e-15" s="25.542542993261307" class="line3">
+      <geom type="line">
+        <sp>-236.9458084904754 0</sp>
+        <ep>236.9458084904754 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="39_95982358" type="shape" x="11743.35849654471" y="11778.902052976437" r="7.216275348561474e-15" s="25.542542993261307" class="line3">
+      <geom type="line">
+        <sp>-236.9458084904754 0</sp>
+        <ep>236.94580849047543 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="62_95982358" type="shape" x="11608.256246582341" y="-6612.64432635756" r="0.007254796343873137" s="25.542542993261225" class="line3">
+      <geom type="line">
+        <sp>-129.58512761545538 144.12914665940136</sp>
+        <ep>129.5851276154554 144.12914665940136</ep>
+        <b>-288.2582933188027</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="63_95982358" type="shape" x="11473.698242149394" y="244.31014414960163" r="44.99999999999999" s="25.54254299326129" class="line3">
+      <geom type="line">
+        <sp>-175.8470888437673 0</sp>
+        <ep>175.84708884376732 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="64_95982358" type="shape" x="11678.081178803524" y="308.36601345337897" r="135" s="25.542542993261275" class="line3">
+      <geom type="line">
+        <sp>-179.38441341517927 0</sp>
+        <ep>179.38441341517927 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="67_95982358" type="shape" x="11618.210201900094" y="7164.396163848187" r="178.83499115065376" s="25.542542993261307" class="line3">
+      <geom type="line">
+        <sp>-121.64842964139346 144.12914665940136</sp>
+        <ep>121.64842964139348 144.12914665940136</ep>
+        <b>-288.2582933188027</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="0_30863873" type="persistentgroup" x="11639.028017760447" y="292.8274784169189" r="0" s="50.75044650269119">
+      <m o="38_95982358"/>
+      <m o="39_95982358"/>
+      <m o="62_95982358"/>
+      <m o="63_95982358"/>
+      <m o="64_95982358"/>
+      <m o="67_95982358"/>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="37_95982358" type="button" x="8.327749172724004e-13" y="0" r="0" s="54.47835910055164" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>955.722801015969</w>
+        <h>600</h>
+      </size>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="71_95982358" type="shape" x="-16111.545484282837" y="454.9635207576582" r="0" s="12.32527389101425" class="line3">
+      <geom type="line">
+        <sp>-195.02319736811828 0</sp>
+        <ep>195.02319736811828 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="97_95982358" type="button" x="11594.4" y="3579" r="0" s="4.003311163327147" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="91_95982358" type="shape" x="11586.774744802327" y="1347.264833528164" r="90" s="10.287733640750773" class="line3">
+      <geom type="arrow">
+        <sp>-70.0736031430613 0</sp>
+        <ep>70.07360314306132 0</ep>
+        <t>5</t>
+      </geom>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="98_95982358" type="text" x="-6707.486969085015" y="-5274.341291251705" r="0" s="111.63673481882867" class="head">
+      <height>28.8</height>
+      <width>291.169897825982</width>
+      <p>
+        <text><![CDATA[Efecto Parallax HTML5]]></text>
+      </p>
+    </object>
+    <object id="99_95982358" type="text" x="-3127.434992134011" y="2909.3123197048976" r="0" s="75.7187057571095" class="strong">
+      <height>32.68359375</height>
+      <width>387.19156616356975</width>
+      <p>
+        <text><![CDATA[Irlanda Covarrubias]]></text>
+      </p>
+    </object>
+    <object id="23_95982358" type="button" x="10508.632807385735" y="7652.863598664869" r="0" s="6.659017797170227" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="104_95982358" type="button" x="10632.954817237509" y="-3287.8053529912922" r="0" s="1.1699060876329046" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="107_95982358" type="button" x="9744.315775566047" y="-2575.5294052369063" r="0" s="1.6786037147670236" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="109_95982358" type="text" x="9790.45" y="-2800.7" r="-2.7759820227195356e-31" s="2.155835426731944" class="body">
+      <height>228.78515625</height>
+      <width>425.8620855910334</width>
+      <p>
+        <text><![CDATA[La palabra Parallax, nos da ya una descripción de lo que es el efecto, puede traducirse al español como alteración, y es que queda claro que la velocidad, el movimiento o la posición de los elementos se ve alterada para realizar el efecto.]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="113_95982358" type="button" x="11601.902053460508" y="-1719.9584436748828" r="0" s="3.4330245725463584" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <parentTemplate>hourglass</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="115_95982358" type="text" x="9808.577019146564" y="-2294.1479092270674" r="-2.775982022719535e-31" s="2.155835426731944" class="body">
+      <height>228.78515625</height>
+      <width>445.7737784827681</width>
+      <p>
+        <text color="1531238"><![CDATA[Uno de los principios es que los elementos del fondo se mueven más lentamente que los de adelante, aplicar este sencillo principio ya le dará un efecto visual enorme a la página. ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="1" type="text" x="10655.7" y="-3286.6499999999996" r="0" s="1.6569135949812628" class="body">
+      <height>326.8359375</height>
+      <width>425.65470550354337</width>
+      <p>
+        <text color="1531238"><![CDATA[Parallax es en realidad un truco con mucha historia, inventado por Disney para dotar a sus películas de dibujos animados de una ligera ]]></text>
+        <text color="1531238" weight="bold" style="italic"><![CDATA[tridimensionalidad]]></text>
+        <text color="1531238"><![CDATA[, intentando lograr con ello un mayor ]]></text>
+        <text color="1531238" weight="bold" style="italic"><![CDATA[realismo]]></text>
+        <text color="1531238"><![CDATA[. El invento se bautizó como “cámara multiplano” y más tarde se adaptó al mundo de los videjuegos en 2D, como Moon Patrol (1982).]]></text>
+      </p>
+    </object>
+    <object id="2" type="text" x="11621.5" y="-1730.3" r="0" s="6.929757576051998" class="body">
+      <height>196.1015625</height>
+      <width>300.34916170974674</width>
+      <p>
+        <text color="3518377"><![CDATA[Ante la caída en desuso de Flash y el auge del diseño plano, este recurso es muy útil para dotar a las web de cierto dinamismo y contrarrestar la planitud.]]></text>
+      </p>
+    </object>
+    <object id="3" type="text" x="11611.121358146498" y="2486.793354347716" r="0" s="9.21311679844549" class="strong">
+      <height>32.68359375</height>
+      <width>-161.89453125</width>
+      <p>
+        <text><![CDATA[Cómo trabaja]]></text>
+      </p>
+    </object>
+    <object id="4" type="text" x="11687.250000000002" y="3123.0573803308607" r="0" s="3.747619020771526" class="body">
+      <height>163.41796875</height>
+      <width>702.7858138312661</width>
+      <p>
+        <text><![CDATA[Los artículos y capas de fondo se les da un fijo posicionado con CSS, y se les asigna un índice z de manera que las capas de primer plano aparecen por encima de las capas de fondo. Las cuatro capas son: nubes pequeñas, grandes nubes, imágenes balón / paisaje, artículos.]]></text>
+      </p>
+    </object>
+    <object id="6" type="image" x="11639.45" y="4135" r="0" s="2.7669483515362896">
+      <source w="578" h="423">3087148435<url>3087148435.jpg</url></source>
+      <sourceUrl>1.jpg</sourceUrl>
+    <resource><id>3087148435</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/e/f/3cf1e7cc8320dd3a6ef6866d432664f5b8c1b.jpg</url></resource></object>
+    <object id="7" type="image" x="10527.500000000002" y="6831.8" r="0" s="5.443320458732156">
+      <source w="718" h="228">3087164242<url>3087164242.png</url></source>
+      <sourceUrl>Captura%20de%20pantalla%202015-02-25%20a%20las%2016.14.47.png</sourceUrl>
+    <resource><id>3087164242</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/7/e/1ea63d611062300612756d90a5b5638df806d.png</url></resource></object>
+    <object id="9" type="image" x="10527.85" y="8359.05" r="0" s="5.364175291252977">
+      <source w="714" h="280">3087172765<url>3087172765.png</url></source>
+      <sourceUrl>Captura%20de%20pantalla%202015-02-25%20a%20las%2016.18.01.png</sourceUrl>
+    <resource><id>3087172765</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/e/f/abb60346fc7118bb56134e7fca3906e173a52.png</url></resource></object>
+    <object id="10" type="button" x="15033.6" y="6298.65" r="0" s="3.121639699018287" class="circle">
+      <type>circle</type>
+      <size>
+        <w>1529.5504505754216</w>
+        <h>1529.5504505754216</h>
+      </size>
+    </object>
+    <object id="11" type="text" x="10542.9" y="5695.39" r="0" s="16" class="strong">
+      <height>32.68359375</height>
+      <width>-41.73046875</width>
+      <p>
+        <text><![CDATA[CSS]]></text>
+      </p>
+    </object>
+    <object id="12" type="text" x="15385.199999999999" y="4579.79" r="0" s="16" class="strong">
+      <height>32.68359375</height>
+      <width>-138.38671875</width>
+      <p>
+        <text><![CDATA[JAVASCRIPT]]></text>
+      </p>
+    </object>
+    <object id="13" type="image" x="15033.4" y="6299.3" r="0" s="6.44012729013465">
+      <source w="542" h="243">3087182056<url>3087182056.png</url></source>
+      <sourceUrl>Captura%20de%20pantalla%202015-02-25%20a%20las%2016.20.41.png</sourceUrl>
+    <resource><id>3087182056</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/6/7/7a2ea2e3d9b9d98603badec745944f349cdb0.png</url></resource></object>
+    <object id="15" type="button" x="28853.55" y="5608.85" r="0" s="27.34232742569464" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="16" type="text" x="28999.551890349823" y="5754.317148039805" r="0" s="24.397147397707506" class="strong">
+      <height>457.5703125</height>
+      <width>706.8211793556735</width>
+      <p>
+        <text color="1531238" weight="normal"><![CDATA[Como se puede ver la propiedad top ]]></text>
+        <text color="1531238"><![CDATA[CSS]]></text>
+        <text color="1531238" weight="normal"><![CDATA[ se utiliza para mover cada capa como el usuario se desplaza. La capa de primer plano siempre se alinea a la parte superior del documento, mientras que el movimiento de otras capas se ajusta de acuerdo a su profundidad. Cuanto más baja se encuentra en una capa de la pila, la menor distancia que se mueve.]]></text>
+      </p>
+      <p>
+        <text weight="normal"><![CDATA[]]></text>
+      </p>
+      <p>
+        <text color="1531238" weight="normal"><![CDATA[El resto de ]]></text>
+        <text color="1531238"><![CDATA[jQuery ]]></text>
+        <text color="1531238" weight="normal"><![CDATA[se ocupa de controlar los menús de navegación. Cuando el usuario hace clic en un botón de navegación de las página se desplaza a la parte superior del artículo asociado. En el caso de que el usuario tiene de JavaScript, enlaces de anclaje HTML regulares con discapacidad todavía permiten la página para ser navegado, pero sin ningún tipo de animaciones de lujo.]]></text>
+      </p>
+    </object>
+    <object id="17" type="text" x="47195.885287855475" y="4088.8797091205765" r="0" s="75.7187057571095" class="strong">
+      <height>32.68359375</height>
+      <width>0</width>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+  </zui-table>
+  <path>
+    <s>
+      <eagle o="37_95982358"/>
+    </s>
+    <s>
+      <eagle o="104_95982358"/>
+    </s>
+    <s>
+      <eagle o="107_95982358"/>
+    </s>
+    <s>
+      <eagle o="113_95982358"/>
+    </s>
+    <s>
+      <eagle o="97_95982358"/>
+    </s>
+    <s>
+      <eagle o="23_95982358"/>
+    </s>
+    <s>
+      <eagle o="10"/>
+    </s>
+    <s>
+      <eagle o="15"/>
+    </s>
+    <s>
+      <eagle o="37_95982358"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('NotoSans-Regular.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('LeagueGothic-Regular.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: normal;
+	font-family: LeagueGothic;
+}
+
+@font-face
+{
+	src: url('NotoSans-Bold.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: normal;
+	font-weight: bold;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('NotoSans-BoldItalic.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('NotoSans-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('LeagueGothic-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: LeagueGothic;
+}
+
+.line1
+{
+	color: #e6e6e6;
+	gradEndColor: #e6e6e6;
+	gradStartColor: #e6e6e6;
+}
+
+.line2
+{
+	color: #ccc;
+	gradEndColor: #ccc;
+	gradStartColor: #ccc;
+}
+
+.line3
+{
+	color: #50e3c2;
+	gradEndAlpha: 1;
+	gradEndColor: #50e3c2;
+	gradStartAlpha: 1;
+	gradStartColor: #50e3c2;
+}
+
+.line4
+{
+	color: #999;
+	gradEndColor: #999;
+	gradStartColor: #999;
+}
+
+.line5
+{
+	color: #737373;
+	gradEndColor: #737373;
+	gradStartColor: #737373;
+}
+
+.poly1
+{
+	borderColor: #e6e6e6;
+	color: #f2f2f2;
+	gradEndColor: #e6e6e6;
+	gradStartColor: #e6e6e6;
+}
+
+.poly2
+{
+	borderColor: #ccc;
+	color: #f2f2f2;
+	gradEndColor: #ccc;
+	gradStartColor: #ccc;
+}
+
+.poly3
+{
+	borderColor: #50e3c2;
+	color: #f2f2f2;
+	gradEndColor: #50e3c2;
+	gradStartColor: #50e3c2;
+}
+
+.poly4
+{
+	borderColor: #999;
+	gradEndColor: #999;
+	gradStartColor: #999;
+}
+
+.poly5
+{
+	borderColor: #737373;
+	gradEndColor: #737373;
+	gradStartColor: #737373;
+}
+
+Background
+{
+	gradEnd: #f2f2f2;
+	gradStart: #f2f2f2;
+}
+
+Grid
+{
+	color: #b2b2b2;
+}
+
+ZArrow
+{
+	borderColor: #fff;
+	borderThickness: 0;
+	gradEndColor: #000;
+	gradStartColor: #000;
+	lockTintAlpha: 0;
+	thickness: 7;
+}
+
+ZCircle
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #000;
+}
+
+ZFrame.bracket
+{
+	borderColor: #737373;
+	borderThickness: 0;
+	gradEndAlpha: 0.9;
+	gradEndColor: #737373;
+	gradStartAlpha: 0.9;
+	gradStartColor: #737373;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.circle
+{
+	borderColor: #a6a6a6;
+	borderThickness: 0;
+	gradEndColor: #a6a6a6;
+	gradStartColor: #a6a6a6;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.roundrect
+{
+	borderColor: #737373;
+	borderThickness: 20;
+	gradEndAlpha: 0.7;
+	gradEndColor: #e6e6e6;
+	gradStartAlpha: 0.7;
+	gradStartColor: #e6e6e6;
+	padding: 1.03;
+	radius: 3;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #333;
+	fontFamily: body;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.9;
+	background-color: #e6e6e6;
+	background-padding: 5;
+}
+
+ZLabel.head
+{
+	color: #333;
+	fontFamily: head;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 0.9;
+	background-color: #a6a6a6;
+	background-padding: 5;
+}
+
+ZLabel.strong
+{
+	color: #333;
+	fontFamily: strong;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.9;
+	background-color: #e6e6e6;
+	background-padding: 5;
+}
+
+ZLine
+{
+	alpha: 1;
+	color: #000;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+}
+
+ZMarker
+{
+	alpha: 0.5;
+	color: #318bff;
+}
+
+ZPoly
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+]]></style>
+  <hash>-18394944</hash>
+<sync><oid>pp5tolgndad2</oid><title>efecto-parallax-html5</title><hash>-18394944</hash></sync><config>ImqsIsOxWb2L5zonxjK/lbdqfeGxAvFTRwHijWmhpoXGfGxL398xtB8vb8+rw4fIqPLLH6srNG7ieqNsYj+o7s4Wo92v+tXC1MC28mrtpGVvihZSBWcuNkQnH6K9YC7mL4i/TLyBYnZ1GkWGfYE124Ag67VsIhUQ42snV16Ef1gYK3hpIr1XkDV7CAEzf95ojVbz7IrlI1KtEwJSBMAwJ3kMRWL1yB/+TSz2MUGAoAiviIX5HZ3783VJQve/LI4vML2LsbkFPQgFdowHNTkq7CCYhzc6KSnIwwx6sSFiO+Q3keA57m4M0puOA51nOcmJcRGpqoYHggY4TCNd/KX/ng==</config></zuiprezi>

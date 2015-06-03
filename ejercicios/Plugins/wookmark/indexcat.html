@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Wookmark</title>
+ <script type="text/javascript" src="../../jquery-1.11.2.min.js"></script>
+
+ <script type="text/javascript" src="wookmarks/jquery.wookmark.js"></script>
+
+ <link rel="stylesheet" href="wookmarks/css/reset.css">
+  <link rel="stylesheet" href="wookmarks/css/main.css">
+
+
+
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+<div id="container">
+	<header>
+		<h1> IRLANDA COVARRUBIAS </h1>
+	</header>
+	<div id="main" role="main">
+		<ul id="tiles"> 
+			<li><img src="wookmarks/sample-images/image_1.jpg" width="200" height="340"> Imagen uno </li>
+
+			<li><img src="wookmarks/sample-images/image_2.jpg" width="200" height="300"> Imagen dos </li>
+
+			<li><img src="wookmarks/sample-images/image_3.jpg" width="200" height="310"> Imagen tres </li>
+
+			<li><img src="wookmarks/sample-images/image_4.jpg" width="200" height="340"> Imagen cuatro </li>
+
+			<li><img src="wookmarks/sample-images/image_5.jpg" width="200" height="320"> Imagen cinco </li>
+
+			<li><img src="wookmarks/sample-images/image_6.jpg" width="200" height="380"> Imagen seis </li>
+
+
+
+		</ul>
+		
+	</div>
+
+</div>
+
+<script type="text/javascript">
+(function ($) {
+	var handler = $("#tiles li");
+
+	    handler.wookmark({
+	    	autoResize:true,
+	    	container: $("#main"),
+	        offset: 5,
+	    	outerOffset: 10,
+	    	itemWidth: 210
+
+
+	    	});
+	    handler.click(function(){
+	    	var newHeight = $("img", this).height() + Math.round(Math.random() *300+ 30);
+
+	    	$(this).css("height", newheight+"px");
+	    	handler.wookmark();
+
+
+	    });
+	    
+})(jQuery);
+
+</script>
+
+	
+</body>
+</html>

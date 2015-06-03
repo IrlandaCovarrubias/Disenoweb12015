@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Vega</title>
+
+	<script type="text/javascript" src="../../jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="vegas/jquery.vegas.min.js"></script>
+
+	<script>
+		$(function() {
+	 		$.vegas('slideshow', {
+			  backgrounds:[
+			    { src:'img/img.jpg', fade:1000 },
+			    { src:'img/img3.jpg', fade:1000 },
+			    { src:'img/img2.jpg', fade:1000 }
+			  ]
+		  })('overlay', {
+		    src:'vegas/overlays/05.png'
+		  });
+		});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="vegas/jquery.vegas.min.css">
+
+	<style>
+		h1 {
+			font-size: 100px;
+			color: white;
+			text-align: center;
+			margin: auto;
+			font-family: arial;
+			margin-top: 50px;
+		}
+
+		div {
+			width: 60%;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: rgba(255,255,255,0.8);
+			border-radius: 5px;
+			margin-top: 100px;
+			font-family: arial;
+			color: black;
+			text-align: center;
+			line-height: 30px;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Wedding Planner</h1>
+
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, nam fugiat iure distinctio dolores reprehenderit placeat eaque! Nostrum, repellendus at modi eum doloremque, cum neque unde voluptatum, numquam libero delectus?<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eos, suscipit est et dolorum fugiat beatae quos dignissimos harum, eaque ab temporibus soluta nam amet eius cupiditate saepe quaerat similique.</div>
+</body>
+</html>

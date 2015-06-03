@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>IRLANDA COVARRUBIAS</title>
+	
+
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<!-- MODERNIZR -->
+	<script type="text/javascript" src="javascripts/vendor/modernizr.custom.js"></script>
+
+	<!-- STYLES -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="master/stylesheets/reset.css">
+	<link rel="stylesheet" type="text/css" href="master/stylesheets/typography.css">
+	<link rel="stylesheet" type="text/css" href="master/stylesheets/styles.css">
+	<link rel="stylesheet" type="text/css" href="master/stylesheets/github.css">
+
+	
+
+
+	
+
+	
+	<div id="body_wrapper">
+		
+		<h3>EJEMPLOS DE TABSLET</h3>
+		<!-- CONTENT -->
+		<section>
+			<!-- CONTENT BLOCK -->
+			<article>
+				<h2>Default</h2>
+<pre data-language="javascript">
+$('.tabs').tabslet();
+</pre>
+				<div class='tabs tabs_default'>
+					<ul class='horizontal'>
+						<li><a href="#tab-1">información</a></li>
+						<li><a href="#tab-2">galeria</a></li>
+						<li><a href="#tab-3">Especificación</a></li>
+					</ul>
+					<div id='tab-1'><h3>ESTA ES LA FUNCIONALIDAD TAB DEFAULT.</h3></div>
+					<div id='tab-2'><h3>Tab 2</h3></div>
+					<div id='tab-3'><h3>Tab 3</h3></div>
+				</div>
+			</article>
+			<article>
+				<h2>Active</h2>
+<pre data-language="javascript">
+$('.tabs').tabslet({
+	active: 2
+});
+</pre>
+				<div class='tabs tabs_active'>
+					<ul class='horizontal'>
+						<li><a href="#tab-1">tab</a></li>
+						<li><a href="#tab-2">information</a></li>
+						<li><a href="#tab-3">tab</a></li>
+					</ul>
+					<div id='tab-1'><h3>Tab 1</h3></div>
+					<div id='tab-2'><h3>La segunda pestaña se activa cuando se carga la página.</h3></div>
+					<div id='tab-3'><h3>Tab 3</h3></div>
+				</div>
+			</article>
+			<article>
+				<h2>Hover</h2>
+<pre data-language="javascript">
+$('.tabs').tabslet({
+	mouseevent: 'hover',
+	attribute: 'href',
+	animation: false
+});
+</pre>
+				<div class='tabs tabs_hover'>
+					<ul class='horizontal'>
+						<li><a href="#tab-1">information</a></li>
+						<li><a href="#tab-2">tab</a></li>
+						<li><a href="#tab-3">tab</a></li>
+					</ul>
+					<div id='tab-1'><h3>Los tabs Cambian cuando pasas el cursor por encima</h3></div>
+					<div id='tab-2'><h3>Tab 2</h3></div>
+					<div id='tab-3'><h3>Tab 3</h3></div>
+				</div>
+			</article>
+			<article id="animation">
+				<h2>Animation</h2>
+<pre data-language="javascript">
+$('.tabs').tabslet({
+	mouseevent: 'click',
+	attribute: 'href',
+	animation: true
+});
+</pre>
+				<div class='tabs tabs_animate'>
+					<ul class='horizontal'>
+						<li><a href="#tab-1">information</a></li>
+						<li><a href="#tab-2">tab</a></li>
+						<li><a href="#tab-3">tab</a></li>
+					</ul>
+					<div id='tab-1'><h3>Cuando cambias la pestaña vemos animación.</h3></div>
+					<div id='tab-2'><h3>Tab 2</h3></div>
+					<div id='tab-3'><h3>Tab 3</h3></div>
+				</div>
+			</article>
+			<article id="rotation">
+				<h2>Rotation</h2>
+<pre data-language="javascript">
+$('.tabs').tabslet({
+	autorotate: true,
+	delay: 3000
+});
+</pre>
+				<div class='tabs tabs_rotate'>
+					<ul class='horizontal'>
+						<li><a href="#tab-1">information</a></li>
+						<li><a href="#tab-2">tab</a></li>
+						<li><a href="#tab-3">tab</a></li>
+					</ul>
+					<div id='tab-1'><h3>It's alive!</h3></div>
+					<div id='tab-2'><h3>It's alive!!</h3></div>
+					<div id='tab-3'><h3>It's alive!!!</h3></div>
+				</div>
+			</article>
+			<article id="controls">
+				<h2>Controls</h2>
+<pre data-language="javascript">
+$('.tabs').tabslet({
+	controls: {
+		prev: '.prev',
+		next: '.next'
+	}
+});
+</pre>
+				<div class='tabs tabs_controls'>
+					<a class="prev">previous</a>
+					<a class="next">next</a>
+					<span class='clear'></span>
+					<ul class='horizontal'>
+						<li><a href="#tab-1">information</a></li>
+						<li><a href="#tab-2">tab</a></li>
+						<li><a href="#tab-3">tab</a></li>
+					</ul>
+					<div id='tab-1'><h3>Tab 1</h3></div>
+					<div id='tab-2'><h3>Tab 2</h3></div>
+					<div id='tab-3'><h3>Tab 3</h3></div>
+				</div>
+			</article>
+			<!-- CONTENT BLOCK ends -->
+
+		</section>
+		<!-- CONTENT ends-->
+		<h3 id="custom_event">Custom Events</h3>
+		<section>
+			<!-- CONTENT BLOCK -->
+			<article>
+				<h2>Custom event "_before"</h2>
+<pre data-language="javascript">
+$('.before_event').tabslet();
+$('.before_event').on("_before", function() {
+	// do stuff here
+});
+</pre>
+				<div class='tabs before_event'>
+					<ul class='horizontal'>
+						<li><a href="#tab-1">information</a></li>
+						<li><a href="#tab-2">tab</a></li>
+						<li><a href="#tab-3">tab</a></li>
+					</ul>
+					<div id='tab-1'><h3>An alert message before the tab change...</h3></div>
+					<div id='tab-2'><h3>TAB 2</h3></div>
+					<div id='tab-3'><h3>TAB 3</h3></div>
+				</div>
+			</article>
+			<article>
+				<h2>Custom event "_after"</h2>
+<pre data-language="javascript">
+$('.after_event').tabslet({
+	animation: true
+});
+$('.after_event').on("_after", function() {
+	// do stuff here
+});
+</pre>
+				<div class='tabs after_event'>
+					<ul class='horizontal'>
+						<li><a href="#tab-1">information</a></li>
+						<li><a href="#tab-2">tab</a></li>
+						<li><a href="#tab-3">tab</a></li>
+					</ul>
+					<div id='tab-1'><h3>An alert message is coming after the animation...</h3></div>
+					<div id='tab-2'><h3>TAB 2</h3></div>
+					<div id='tab-3'><h3>TAB 3</h3></div>
+				</div>
+			</article>
+		</section>
+		<!-- CONTENT ends-->
+		<h3>Use of data attribute to load</h3>
+		<section>
+			<!-- CONTENT BLOCK -->
+			<article>
+				<h2>The attribute "data-toggle"</h2>
+<pre data-language="javascript">
+<div data-toggle="tabslet" data-animation="true"></div>
+</pre>
+				<div class='tabs' data-toggle="tabslet" data-animation="true">
+					<ul class='horizontal'>
+						<li><a href="#tab-1">information</a></li>
+						<li><a href="#tab-2">tab</a></li>
+						<li><a href="#tab-3">tab</a></li>
+					</ul>
+					<div id='tab-1'><h3>Just include the plugin and add the data attribute to your html tag!</h3></div>
+					<div id='tab-2'><h3>TAB 2</h3></div>
+					<div id='tab-3'><h3>TAB 3</h3></div>
+				</div>
+			</article>
+		</section>
+	</div>
+	<!-- MAIN CONTAINER ends -->
+
+	<!-- FOOTER -->
+	
+</div>
+
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+	<!-- JS -->
+	<script type="text/javascript" src="master/javascripts/vendor/waypoints.min.js"></script>
+	<script type="text/javascript" src="master/javascripts/vendor/waypoints-sticky.min.js"></script>
+	<script type="text/javascript" src="master/jquery.tabslet.min.js"></script>
+	<script type="text/javascript" src="master/javascripts/vendor/rainbow-custom.min.js"></script>
+	<script type="text/javascript" src="master/javascripts/vendor/jquery.anchor.js"></script>
+	<script src="master/javascripts/initializers.js"></script>
+	<!-- JS ends -->
+
+</body>
+</html>
